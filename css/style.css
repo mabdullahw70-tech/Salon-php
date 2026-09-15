@@ -1,0 +1,47 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    padding-top: 70px;
+}
+
+.hero-section {
+    height: 90vh;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                url('../images/combs-scissors-copy-space.jpg') center/cover no-repeat;
+    color: white;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.service-box {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.service-box:hover {
+    transform: translateY(-10px);
+}
+
+.btn-primary {
+    background-color: #e83e8c;
+    border: none;
+}
+.page-header {
+    height: 50vh;
+    background: linear-gradient(rgba(232,62,140,0.7), rgba(232,62,140,0.7)),
+                url('../images/combs-scissors-copy-space.jpg') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+}
+.service-card {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 25px rgba(0,0,0,0.2);
+}
